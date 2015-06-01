@@ -1,3 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
 	It puts the git file into the directory. You need to do this becuase not doing it defeats the purpose of using twitch.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is different from the working dorectpry because it isn't necessarily the directory you are working on. This can be useful because you can sit something somewhere, go work on something else and then come back to it.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Place commits in the staging area one at a time
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Branches will be helpful any time you are adding new features. It will help you track when a bug is introduced, as well as anything you may have forgotten to do.	
+
+How do the diagrams help you visualize the branch structure?
+	
+	They let you know what commits are part of what branches. They also let you know where a new feature branched off.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging to branches together is like a joined program. We represent it the way we do to understand what is reachable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Time is the main benefit of automatic merging. The con is that it can do things not correctly.
